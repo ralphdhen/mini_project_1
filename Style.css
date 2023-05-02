@@ -31,10 +31,19 @@ body{
 .nav-link:hover{
     font-weight: bold;
 }
-h1{
-    font-size: 75px;
-    color: white;
+@media(min-width: 1020px){
+    h1{
+        font-size: 75px;
+        color: white;
+    }
 }
+@media(max-width: 1020px){
+    h1{
+        font-size: 55px;
+        color: white;
+    }
+}
+
 p{
     color: white;
 }
@@ -47,8 +56,10 @@ p{
     padding-top: 50px;
     margin-left: 20px;
     font-size: large;
-    
+    font-weight: semibold;
+   
 }
+
 label{
     color: grey;
 }
@@ -71,3 +82,54 @@ label{
     color: #000;
   }
   
+@media(max-width: 1020px){
+    .aboutme-1{
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+    }
+}
+
+@media(min-width: 670px){
+    .aboutme-1{
+        font-size: 18px;
+        line-height: 20px;
+
+    }
+}
+
+@media(max-width: 1020px){
+    .aboutmehead{
+        font-size: 45px;
+        color: white;
+        font-weight: semibold;
+        text-align: center;
+
+    }
+}
+@media(min-width: 1020px){
+    .aboutmehead{
+        font-size: 75px;
+        color: white;
+        font-weight: Semibold;
+        text-align: left;
+
+    }
+}
+
+@media(max-width: 1020px){
+    .getin-1{
+        font-size: 45px;
+        color: rgb(255, 255, 255);
+        font-weight: semibold;
+
+    }
+}
+@media(min-width: 1020px){
+    .getin-1{
+        font-size: 55px;
+        color: white;
+        font-weight: Semibold;
+
+    }
+}
